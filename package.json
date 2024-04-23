@@ -25,7 +25,22 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "fig": {
+    "dev":{
+      "description": "Start the dev server",
+      "icon": ""
+    },
+    "build":{
+      "description": "Build the project",
+      "icon": ""
+    },
+    "lint":{
+      "description": "Check lint formatting",
+      "icon": ""
+    },
+    "preview":{
+      "description": "Preview the project",
+      "icon": ""
+    }
   }
 }
